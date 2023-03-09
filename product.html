@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/product.css">
+</head>
+
+<body>
+    <div class="container-fluid px-0">
+        <!--Portion-1-Navbr-->
+        <nav id="navbar">
+            <div class="row nav" id="header-top-1">
+                <div class="col-2 px-0">
+                    </h6> FORWARD: Japanese Used Cars for Sale</h6>
+                </div>
+                <div class="col-5 px-0">
+                    <ul class="list-item">
+                        <li>Total Cars In Stock: 256,303</li>
+                        <li>Cars Added Today: 8,538</li>
+                        <li>Japan Time: 11:00 PM</li>
+                    </ul>
+                </div>
+                <div class="col px-0">Country:
+                    <select name="Country" id="Country">
+                        <option value="Africa">Africa</option>
+                        <option value="Asia">Asia</option>
+                        <option value="Europe">Europe</option>
+                        <option value="North">North America</option>
+                        <option value="Caribean">Caribean</option>
+                        <option value="Latin">Latin America</option>
+                        <option value="Oceania">Oceania</option>
+                        <option value="CIS">CIS</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    Currency:
+                    <select name="Currency" id="Currency">
+                        <option value="USD">USD</option>
+                        <option value="JPY">JPY</option>
+                        <option value="EUR">EUR</option>
+                        <option value="NZD">NZD</option>
+                        <option value="ZAR">ZAR</option>
+                        <option value="AUD">AUD</option>
+                        <option value="CAD">CAD</option>
+                    </select>
+                    Language:
+                    <select name="Language" id="Language">
+                        <option value="English">English</option>
+                        <option value="Francias">Francias</option>
+                        <option value="Portuues">Portuues</option>
+                        <option value="kiswahili">kiswahili</option>
+                        <option value="Espanol">Espanol</option>
+                        <option value="pyccknn">pyccknn</option>
+                    </select>
+                </div>
+
+            </div>
+            <!-- navbar-part-2 -->
+            <div class="row nav1 pt-3">
+                <div class="col-2">
+                    <a href="#"><img src="assets/image/logo.png" alt="" width="175" height="60"></a>
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col px-0 search_dropdown">
+                            <select name="cars" id="cars">
+                                <optgroup label="By keyword">
+                                    <option value="By keyword">By keyword</option>
+                                    <option value="By Ref No.">By Ref No.</option>
+
+                                </optgroup>
+                            </select>
+                        </div>
+                        <div class="col-10 px-0">
+                            <div class="input-group">
+                                <div class="form-outline">
+                                    <input type="search" id="form1" class="form-control" placeholder="Search" />
+                                </div>
+                                <button type="button" class="btn btn-primary">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-2 nav-lnk">
+                    <img src="assets/image/navlink1.png" alt="" width="22" height="20"> <span>Favorites</span>
+                    <a href="#">
+                        <i class="fa-solid fa-user"></i>
+                        <label for="">Login</label>
+                    </a>
+                </div>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col">
+                                        <h6>Used Cars</h6>
+                                    </div>
+                                    <div class="col">
+                                        <h6>Auto Parts</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <div class="col-5">
+                                <h6>Local Services</h6>
+                            </div>
+                            <div class="col">
+                                <h6>Reviews</h6>
+                            </div>
+                            <div class="col">
+                                <h6>Help</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- navbar-part-3 -->
+            <div class="row nav2">
+                <div class="col"></div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col">
+                            <p>About the Current Shipping Situation -Update June 10,2023 <br> BE Forward Sales Office is
+                                Open! <a href="#">Contact Us</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+        </nav>
+    </div>
+    <!-- Product-Main -->
+    <div class="container my-3">
+        <div class="row">
+            <div class="col">
+                <div id="carouselExampleFade" class="carousel slide " data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/image/card11.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/image/card1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/image/product/s3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- row -->
+               <div class="container my-4">
+                <div class="row">
+                    <div class="col-7">
+                <span> <button type="button" class="btn btn-facebook">Facebook </button>
+                            <button type="button" class="btn btn-telegram">Telegram </button>
+                            <button type="button" class="btn btn-whatsapp">WhatsApp </button>
+                        </span>
+                    </div>
+                    <div class="col-5">
+                        <a href="#"> Download all imeages</a>
+                    </div>
+                </div>
+               </div>
+            </div>
+            <div class="col">
+                <h2>2016 PEUGEOT 5008 PREMIUM</h2>
+                <h6>ABA-T875F02 BN015300</h6>
+                <div class="row">
+                    <div class="col">
+                        <p class="para">DISCOUNT SALE &nbsp; BF <span>STOCK</span>&nbsp; TODAYS OFFER!!</P>
+                    </div>
+                    <div class="col-1">
+                        <h6 class="print">Print</h6>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <h6>Price</h6>
+                    </div>
+                    <div class="col">
+                        <h5>$2,760</h5>
+                        <p>26%off 3,750</p>
+                    </div>
+                    <div class="col px-0">
+                        <button type="button" class="btn btn-2nd-row" data-bs-toggle="button" autocomplete="off">
+                            <i class="icon-mail"></i>
+                            GET A PRICE QUOTE NOW
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h6>You Save</h6>
+                    </div>
+                    <div class="col">$990</div>
+                    <div class="col-3 ">
+                        <p class="text-row3"><span>POPULAR</span> 7 people are inquiring</p>
+                    </div>
+                </div>
+                <hr class="hr-2">
+                <div class="row">
+                    <div class="col">
+                        <h6>Total Price</h6>
+                    </div>
+                    <div class="col-8">
+                        <h5>$4,510</h5>
+                        <p>C&F to KARACHI</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-6">
+                        <button type="button" class="btn btn-outline-primary" data-bs-toggle="button"
+                            autocomplete="off">
+                            <span><img src="assets/image/product/btn-parts_icon.png" alt=""> Find Parts For This Vehicle
+                                ></span>
+                        </button>
+                        <p>Auto parts for model code: <span>ABA-T875F02</span></p>
+                    </div>
+                </div>
+                <hr class="hr-3">
+                <div class="row">
+                    <div class="col">
+                        <img src="assets/image/product/specs-icon.png" width="23px" height="20px" alt="file-icon">
+                        <span class="specs-h">SPECS</span>
+                    </div>
+                    <div class="col-4">
+                        <span>LOCATION</span> <span><img src="assets/image/product/specs-icon2.png" width="30px"
+                                height="25px" alt=""><b>OSAKA</b></span>
+                    </div>
+                </div>
+                <div class="container my-3">
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-8">
+                            <span>Mileage| Year | Engine | Trans. | Fuel </span><br>
+                            <h5>42,293 Km | 216/6 | 1,590cc | AT | Petrol</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <table  cellpadding="0" cellspacing="0" class="table-1">
+                                <tbody>
+                                    <tr>
+                                        <th class="gray">Ref. No.</th>
+                                        <td>BN015300</td>
+                                        <th class="gray">Mileage</th>
+                                        <td> 42,293 km
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="gray">Chassis No.</th>
+                                        <td>VF30E5FVADS231581</td>
+                                        <th class="gray">Engine Code</th>
+                                        <td>5F02</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="gray">Model Code</th>
+                                        <td>
+                                            ABA-T875F02
+                                        </td>
+                                        <th class="gray">Steering</th>
+                                        <td>Right</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="gray">Engine Size</th>
+                                        <td>1,590cc</td>
+                                        <th class="gray">Ext. Color</th>
+                                        <td>Pearl</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="gray">Location</th>
+                                        <td>OSAKA</td>
+                                        <th class="gray">Fuel</th>
+                                        <td>Petrol</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="gray">Version/Class</th>
+                                        <td>PREMIUM</td>
+                                        <th class="gray-cell">Seats</th>
+                                        <td>7</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="gray">Drive</th>
+                                        <td>2wheel drive</td>
+                                        <th class="gray-cell">Doors</th>
+                                        <td>5</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="gray">Transmission</th>
+                                        <td>Automatic</td>
+                                        <th class="gray-cell">M3</th>
+                                        <td>13.67</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="gray"><span class="orange">Registration<br>Year/month</span></th>
+                                        <td>2016/6</td>
+                                        <th class="gray-cell">Dimension</th>
+                                        <td> 4.53×1.84×1.64&nbsp;m</td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <th class="gray" rowspan="2"><span
+                                                class="green">Manufacture<br>Year/month</span></th>
+                                        <td rowspan="2">
+                                            2013/-
+                                        </td>
+                                        <th class="gray-cell">Weight</th>
+                                        <td>1,570 kg</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th class="gray-cell">Max.Cap</th>
+                                        <td>-</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="container my-4">
+                    <div class="row">
+                        <div class="col">
+                            <h6>*[Registration Year/Month]</h6><span>is a registration date in Stock Country.</span>
+                            <h6>*[Manufacture Year/month]</h6><span>s provided by the 3rd Party Supplier. BE FORWARD shall not be <br>
+                                responsible for any loss, damages and troubles caused by this information.
+                            </span> <br><br>
+                            <p>You need to look up the Import Regulation of your country for this vehicle.</p>
+                            <p>The actual dimension,M3 and Weight may differ from the above one.</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="container">
+                    <p class="table2-p">FEATURES</p>
+                    <div class="row">
+                        <div class="col">
+                           <table cellpadding="10" cellspacing="10" class="table-2">
+                            <tbody>
+                                <tr>
+                                    <td>CD PLAYER</td>
+                                    <td>Sun Roof</td>
+                                    <td>Leather Seat</td>
+                                    <td>Alloy Wheels</td>
+                                </tr>
+                                <tr>
+                                    <td>Power Steering</td>
+                                    <td>Power Window</td>
+                                    <td>A/C</td>
+                                    <td>ABS</td>
+                                </tr>
+                                <tr>
+                                    <td>Airbag</td>
+                                    <td>Radio</td>
+                                    <td>CD Changer</td>
+                                    <td>DVD</td>
+                                </tr>
+                                <tr>
+                                    <td>TV</td>
+                                    <td>Power Seat</td>
+                                    <td>Back Tire</td>
+                                    <td>Grill Guard</td>
+                                </tr>
+                                <tr>
+                                    <td>Rear Spoiler</td>
+                                    <td>Central Locking</td>
+                                    <td>Jack</td>
+                                    <td>Spare Tire</td>
+                                </tr>
+                                <tr>
+                                    <td>Wheel Spanner</td>
+                                    <td>Fog Lights</td>
+                                    <td>Back Camera</td>
+                                    <td>Push Start</td>
+                                </tr>
+                                <tr>
+                                    <td>Keyless Entry</td>
+                                    <td>ESC</td>
+                                    <td>360 Degree Camera</td>
+                                    <td>Body Kit</td>
+                                </tr>
+                                <tr>
+                                    <td>Side Airbag</td>
+                                    <td>Power Mirror</td>
+                                    <td>Side Skirts</td>
+                                    <td>Front Lip Spoiler</td>
+                                </tr>
+                                <tr>
+                                    <td>Navigation</td>
+                                    <td>Turbo</td>
+                                </tr>
+                            </tbody>
+                           </table>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+   <b> <hr class="hr-center bg-danger"></b>
+   <div class="container">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col">
+            <span>STEP 1 >  <img src="assets/image/product/global-icon.png" alt="" width="20px" height="20px">
+                 <b>SHIPPING DESTINATION</b>
+            </span>
+        </div>
+        <div class="col"></div>
+    </div>
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col px-0  "><p>FINAL COUNTRY</p></div>
+            <div class="col px-0">
+                <select name="" id="country">
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Afganistan">Afganistan</option>
+                    <option value="Albania">Albania</option>
+                    <option value="Algeria">Algeria</option>
+                    <option value="American-Samoa">American-Samoa</option>
+                    <option value="Anagola">Anagola</option>
+                    <option value="Anaguilla">Anaguilla</option>
+                    <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Armenia">Armenia</option>
+                    <option value="Aruba">Aruba</option>
+                    <option value="Austria">Austria</option>
+                    <option value="Bharamas">Bharamas</option>
+                    <option value="Bahrain">Bahrain</option>
+                    <option value="Bangladash">Bangladash</option>
+                    <option value="Belgium">Belgium</option>
+                    <option value="Beliz">Beliz</option>
+                    <option value="Barbados">Barbados</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Buhtan">Buhtan</option>
+                    <option value="Benin">Benin</option>
+                    <option value="Bermuda">Bermuda</option>
+                </select>
+            </div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col">
+            <p>PORT/CITY</p>
+        </div>
+        <div class="col">
+            <p><b>KOROR</b><br>
+            pick up at port (RORO)</p>
+        </div>
+        <div class="col-4">
+            <button type="button" class="btn btn-primary btn-sm">CLOSE^</button>
+        </div>
+    </div>
+    <div class="row my-4">
+        <div class="col-4"></div>
+        <div class="col">
+            <p>
+                from <b> KOROR </b> to</p>
+        </div>
+    </div>
+    <hr class="hr-center">
+    <div class="container px-0">
+        <div class="row" >
+            <div class="col-4"></div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      <b>KOROR</b>
+                    </label>
+                  </div>
+            </div>
+            <div class="col"><p>pick up at port (RORO)</p></div>
+            <div class="col"><p>$4,925</p></div>
+        </div>
+    </div>
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col">Additional Options</div>
+        </div>
+    </div>
+    <div class="container my-2">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                   <span>Marine Insurance <img src="assets/image/form_icon.png" alt=""></span>
+                  </div>
+            </div>
+    </div>
+    </div>
+    <div class="container my-2">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                   <span>BF Warranty <br> 
+                    <p>BF Warranty is $80 per vehicle.<br>
+                    <a href="#">about BF Warranty</a></p>
+                </span>
+                  </div>
+            </div>
+    </div>
+    </div>
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col">
+                <span>Discount Coupon Code <select name="" id="">
+                    <input type="text">
+                </select></span>
+            </div>
+    </div>
+    </div>
+    <hr class="hr-center">
+   <div class="container">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col">Total Price:</div>
+        <div class="col">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col">CIF$4,925</div>
+            </div>
+        </div>
+    </div>
+   </div>
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col"><img src="assets/image/product/drop-img.png" alt=""></div>
+            <div class="col"></div>
+        </div>
+    </div>
+    <hr class="hr-center">
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col">
+                <span>STEP 2 > <img src="assets/image/product/msg-icon.png" alt="" width="23px" height="23px">
+                <b>GET A QUOTE</b>
+                </span>
+            </div>
+        </div>
+    </div> -->
+    <div class="container my-3">
+            <p class="related-vechile">
+                <span>
+                  <img src="assets/image/product/thumb-icon.jpeg" alt="" width="27px" height="27px">  SIMILAR AND RELATED VEHICLES
+            </span>
+            </p>
+    </div>
+
+
+    <div class="container ">
+        <div class="row">
+            <div class="col">
+                <div class="container my-3">
+                    <div class="row">
+                        <div class="col">
+                            <a href="#">
+                                <img src="assets/image/card6.jpeg" alt="" width="130px" height="90px">
+                                <p>TOYOTA <br>
+                                    SUCCEED VAN <br>
+                                    Vehicle Price: <br>
+                                    $1,720 <br>
+                                    Save:49%
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#">
+                                <img src="assets/image/card7.jpeg" alt="" width="130px" height="90px">
+                                <p>TOYOTA <br>
+                                    DYNA TRUCK <br>
+                                    Vehicle Price: <br>
+                                    $6,330 <br>
+                                    Save:30%
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#">
+                                <img src="assets/image/card8.jpeg" alt="" width="130px" height="90px">
+                                <p>
+                                    PORSCHE <br>
+                                    CAYENNE <br>
+                                    Vehicle Price: <br>
+                                    $15,490 <br>
+                                    Save:21%
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#">
+                                <img src="assets/image/card9.jpeg" alt="" width="130px" height="90px">
+                                <p>JEEP <br>
+                                    WARNGLER <br>
+                                    Vehicle Price: <br>
+                                    $5,790 <br>
+                                    Svae:19%
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#">
+                                <img src="assets/image/card10.jpeg" alt="" width="130px" height="90px">
+                                <p>JEEP <br>
+                                    WARNGLER <br>
+                                    Vehicle Price: <br>
+                                    $5,790 <br>
+                                    Svae:19%
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container my-3">
+                    <div class="row">
+                        <div class="col">
+                            <a href="#">
+                                <img src="assets/image/card11.jpg" alt="" width="130px" height="90px">
+                                <p>JEEP <br>
+                                    WARNGLER <br>
+                                    Vehicle Price: <br>
+                                    $5,790 <br>
+                                    Svae:19%
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#">
+                                <img src="assets/image/card12.jpeg" alt="" width="130px" height="90px">
+                                <p>JEEP <br>
+                                    WARNGLER <br>
+                                    Vehicle Price: <br>
+                                    $5,790 <br>
+                                    Svae:19%
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#">
+                                <img src="assets/image/card13.jpeg" alt="" width="130px" height="90px">
+                                <p>JEEP <br>
+                                    WARNGLER <br>
+                                    Vehicle Price: <br>
+                                    $5,790 <br>
+                                    Svae:19%
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#">
+                                <img src="assets/image/card14.jpeg" alt="" width="130px" height="90px">
+                                <p>JEEP <br>
+                                    WARNGLER <br>
+                                    Vehicle Price: <br>
+                                    $5,790 <br>
+                                    Svae:19%
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#">
+                                <img src="assets/image/card15.jpeg" alt="" width="130px" height="90px">
+                                <p>JEEP <br>
+                                    WARNGLER <br>
+                                    Vehicle Price: <br>
+                                    $5,790 <br>
+                                    Svae:19%
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container my-3">
+                    <div class="row">
+                        <div class="col">
+                            <a href="#">
+                                <img src="assets/image/card16.jpeg" alt="" width="130px" height="90px">
+                                <p>JEEP <br>
+                                    WARNGLER <br>
+                                    Vehicle Price: <br>
+                                    $5,790 <br>
+                                    Svae:19%
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#">
+                                <img src="assets/image/card17.jpeg" alt="" width="130px" height="90px">
+                                <p>JEEP <br>
+                                    WARNGLER <br>
+                                    Vehicle Price: <br>
+                                    $5,790 <br>
+                                    Svae:19%
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#">
+                                <img src="assets/image/card18.jpeg" alt="" width="130px" height="90px">
+                                <p>JEEP <br>
+                                    WARNGLER <br>
+                                    Vehicle Price: <br>
+                                    $5,790 <br>
+                                    Svae:19%
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#">
+                                <img src="assets/image/card19.jpeg" alt="" width="130px" height="90px">
+                                <p>JEEP <br>
+                                    WARNGLER <br>
+                                    Vehicle Price: <br>
+                                    $5,790 <br>
+                                    Svae:19%
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="#">
+                                <img src="assets/image/card20.jpeg" alt="" width="130px" height="90px">
+                                <p>JEEP <br>
+                                    WARNGLER <br>
+                                    Vehicle Price: <br>
+                                    $5,790 <br>
+                                    Svae:19%
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col"></div> -->
+        </div>
+    </div>
+
+    <div class="container my-3">
+        <p class="related-vechile">
+            <span>
+            <img src="assets/image/product/thumb-icon.jpeg" alt="" width="27px" height="27px">AUTO PARTS FOR THIS MODEL
+        </span>
+        </p>
+</div>
+<div class="container my-2 ">
+    <div class="row">
+        <div class="col-3">
+            <a href="#">
+                <img src="assets/image/product/auto-parts.jpg" alt="">
+            <p>AUTO PARTS FOR <br> PEUGEOT 5008</p>
+            </a>
+        </div>
+        
+    </div>
+</div>
+<div class="container my-5 px-0">
+    <div class="row">
+        <div class="col"><p>THE KEYWORDS OF THIS VEHICLE:</p></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <ul class="product-detail">
+                    <li><a href="#">PEUGEOT</a></li>
+                    <li><a href="#">Mini Van</a></li>
+                    <li><a href="#">5008</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="#">Pearl</a></li>
+                    <li><a href="#">Automatic</a></li>
+                    <li><a href="#">Petrol</a></li>
+                    <li><a href="#">Right Hand Drive</a></li>
+                    <li><a href="#">2wheel drive</a></li>
+                </ul>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col"><img src="assets/image/product/detail-vehicle.jpg" alt=""></div>
+            <div class="col-8 px-0">
+                <h5 class="detail-text-heading">About this 2016 PEUGEOT 5008 (Price:$1,960)</h5><br>
+                <p class="detail-text-para">
+                    This 2016 PEUGEOT 5008 has 5 doors and automatic transmission, along with a 1,590cc petrol engine. <br> 
+                    It includes 7 seats, has a mileage of 42,293km, and was first registered in 2016 / 6
+                </p>
+                <h5 class="detail-text-heading">About Mini Van</h5><br>
+                <p class="detail-text-para">
+                    A minivan, or MPV (multi-purpose vehicle), is a more compact version of a typical van that is ordinarily used fortransporting larger amounts of passengers. As opposed to a van, minivans are rarely used commercially, are fitted with passenger comfort in mind, and have similar handling and fuel economy to that of a regular car.
+                </p>
+            </div>
+    </div>
+</div>
+
+   </div>
+    <!-- Footer -->
+    <div class=" text-white bg-dark">
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-2 pt-4">
+                    <!-- <img src="assets/image/logo.png" alt=""> -->
+                    <h1>YOUR LOGO</h1>
+                </div>
+                <div class="col px-0    ">
+                    <p>
+                        4-20-2 Fuda Chofu-Shi,Tokyo <br>
+                        182-0024 Japan <br>
+                        Phone Number Me : +92-------- <br>
+                        FAX : +81 42 440 3450 <br>
+                        Email : top@beforward.jp
+                    </p>
+                </div>
+                <div class="col-5 pt-5">
+                    <button type="button" class="btn btn-primary footer-btn  " data-bs-toggle="button"
+                        autocomplete="off" aria-pressed="true">smartphone site</button>
+                </div>
+                <div class="col-2 pt-5">
+
+                    <img class="mx-1" src="assets/image/icon_facebook.gif" alt="">
+                    <img class="mx-1" src="assets/image/icon_twitter.gif" alt="">
+                    <img class="mx-1" src="assets/image/icon_youtube.gif" alt="">
+                    <img class="mx-1" src="assets/image/icon_instagram.png" alt="">
+
+                </div>
+            </div>
+            <hr>
+
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5 class="footer-list-section">Browse Stock :</h5>
+                        <ul class="footer-nav-item">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5 class="footer-list-section">Shop By Make :</h5>
+                        <ul class="footer-nav-item">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5 class="footer-list-section">Shop By Type :</h5>
+                        <ul class="footer-nav-item">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5 class="footer-list-section">Shop By Price :</h5>
+                        <ul class="footer-nav-item">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3 ">
+                        <h5 class="footer-list-section">How To Buy :</h5>
+                        <ul class="footer-nav-item">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5 class="footer-list-section">BF Local Services :</h5>
+                        <ul class="footer-nav-item">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+            <!--Footer-2  -->
+        </div>
+    </div>
+
+    <div class="container-fluid px-0  ">
+        <div class="d-flex flex-column flex-sm-row py-1  justify-content-between   footer-2">
+            <div class="container footer-end">
+                <div class="row">
+                    <div class="col">
+                        <p>© Copyright 2023 BE FORWARD CO.,LTD. All rights reserved.</p>
+
+                    </div>
+                    <div class="col-2"></div>
+                    <div class="col">
+                        <ul class="list-unstyled d-flex footer-2-li">
+                            <li class="ms-3"><a href="#">Terms & Conditions |</a></li>
+
+                            <li class="ms-3"><a href="#">Privacy Policy |</a></li>
+
+                            <li class="ms-3"><a href="#">Disclaimer |</a></li>
+                            <li class="ms-3"><a href="#">Site Map</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
